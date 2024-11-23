@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/dashboard/dashboard.css";
 import "../../styles/dashboard/notice.css";
+import "../../styles/dashboard/finance.css";
 
 const dashboardComponent = () => {
   return (
@@ -38,7 +39,38 @@ const dashboardComponent = () => {
           </ul>
         </div>
         <div className="finance-section">
-          <h3>세금현황</h3>
+          <div class="finance-header">
+            <h3>세금 현황</h3>
+            <a href="#" class="more-link">
+              더보기
+            </a>
+          </div>
+          <div class="balance">
+            1,000,000 <span>화폐</span>
+          </div>
+          <ul class="finance-list">
+            <li>
+              <span class="finance-date">2024.10.11</span>
+              <div>
+                <span class="finance-text">♻️ 쓰레기 봉투 구매</span>
+                <span class="amount-negative">-10,000</span>
+              </div>
+            </li>
+            <li>
+              <span class="finance-date">2024.10.11</span>
+              <div>
+                <span class="finance-text">💰 세금 걷는 날</span>
+                <span class="amount-positive">+100,000</span>
+              </div>
+            </li>
+            <li>
+              <span class="finance-date">2024.10.11</span>
+              <div>
+                <span class="finance-text">💰 세금 걷는 날</span>
+                <span class="amount-positive">+100,000</span>
+              </div>
+            </li>
+          </ul>
         </div>
         <div className="chart-section">
           <h3>주식추이</h3>
