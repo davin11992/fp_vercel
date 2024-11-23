@@ -1,0 +1,113 @@
+.finance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin: 0.2rem 0.8rem;
+}
+
+.finance-header h3 {
+  margin: 0.8rem 0rem;
+}
+
+.finance-header .more-link {
+  color: var(--text-lightgre, #afafaf);
+  font-family: NanumSquareRound;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.03rem;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.balance {
+  color: var(--text, #3c3530);
+  font-family: NanumSquareRound;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.05rem;
+
+  padding-top: 1rem;
+  padding-left: 0.8rem;
+}
+
+.balance span {
+  font-size: 1rem;
+}
+
+.finance-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  margin-left: 0.8rem;
+  margin-top: 1.5rem;
+  gap: 0.7rem;
+}
+
+.finance-list li {
+  width: 100%;
+  height: auto;
+  border-radius: 0.625rem;
+  border: 1px solid #fff;
+  background: #f7f7f7;
+
+  padding: 0.3rem 0.8rem 0.6rem 0.8rem;
+}
+
+.finance-list .finance-date {
+  color: var(--text-lightgre, #afafaf);
+  font-family: NanumSquareRound;
+  font-size: 0.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.02188rem;
+}
+
+.finance-text {
+  color: var(--text-darkgrey, #808080);
+  font-family: NanumSquareRound;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04688rem;
+}
+
+.finance-list div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.amount-negative {
+  color: #e74343;
+  text-align: center;
+  font-family: NanumSquareRound;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.04688rem;
+}
+
+.amount-positive {
+  color: #536de2;
+  text-align: center;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #fff;
+  font-family: NanumSquareRound;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.04688rem;
+}
