@@ -2,6 +2,7 @@ header {
   background-color: white;
   align-items: center;
   margin: 0;
+  width: 100vw;
 }
 
 ul {
@@ -13,6 +14,10 @@ ul {
   margin: 0;
 }
 
+.logo-div {
+  padding: 1.5rem 0rem 2rem 0rem;
+}
+
 #funnypenny-logo-red {
   color: #e74343;
   font-family: LaundryGothicOTF;
@@ -22,6 +27,7 @@ ul {
   line-height: normal;
   letter-spacing: -0.05625rem;
   padding: 1rem 0rem 1.2rem 3rem;
+  text-decoration: none;
 }
 
 #funnypenny-logo-green {
@@ -36,6 +42,22 @@ ul {
   margin: 0;
   padding: 0.5rem 0rem 1rem 0rem;
 }
+
+.header-nav-li-onclick {
+  color: var(--text, #3c3530);
+  font-family: NanumSquareRound;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.05625rem;
+  text-align: center;
+
+  text-decoration: none;
+  align-items: center;
+  padding: 0rem 0rem;
+}
+
 .header-nav-li {
   color: var(--text, #a7a7a7);
   font-family: NanumSquareRound;
@@ -49,6 +71,13 @@ ul {
   text-decoration: none;
   align-items: center;
   padding: 0rem 0rem;
+}
+
+.header-nav-li-onclick img {
+  width: 2rem;
+  height: 2rem;
+
+  align-items: center;
 }
 
 .header-nav-li img {

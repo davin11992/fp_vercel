@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+/* -------------------------------------notice section-----------------------------------*/
+/* --------------------------------------------------------------------------------------*/
+.notice-section {
+  grid-column: span 1; /* 첫 번째 열에 위치 */
+  grid-row: span 1; /* 첫 번째 행에 위치 */
+  background: #fafafa;
+  border-radius: 1.25rem;
+  padding: 0.5rem;
+}
+
+.notice-section {
+  background: white;
+}
+
+.notice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin: 0.2rem 1rem;
+}
+
+.notice-header h3 {
+  margin: 0.8rem 0rem;
+}
+
+.notice-header .more-link {
+  color: var(--text-lightgre, #afafaf);
+  font-family: NanumSquareRound;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.03rem;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.notice-title {
+  display: flex;
+  align-items: center;
+}
+
+.notice-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  padding: 0.5rem 1rem;
+}
+
+.notice-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+
+  color: var(--text-darkgrey, #808080);
+  font-family: NanumSquareRound;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.05625rem;
+
+  width: 100%;
+}
+
+.notice-title .badge {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 0.6rem;
+  font-weight: 700;
+  background: #e74343;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  line-height: 1rem;
+  padding: 0;
+  margin-left: 0.7rem;
+}
+
+.notice-list .notice-date {
+  color: var(--text-lightgre, #afafaf);
+  font-family: NanumSquareRound;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02813rem;
+}
